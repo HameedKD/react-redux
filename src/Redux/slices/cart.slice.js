@@ -12,7 +12,7 @@ const cartSlice = createSlice({
         removeCart(state,action){
             state.splice(action.payload,1)
         },
-        removeAllCart(state,action){
+        removeAllCart(state){
             return state = initialState
         }
         
